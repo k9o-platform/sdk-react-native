@@ -1,0 +1,30 @@
+{
+  "name": "@k9o/core-react-native",
+  "version": "1.5.0",
+  "description": "Kilimanjaro core project-plane client for React Native (pure TypeScript)",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k9o-platform/k9o-core-react-native.git"
+  },
+  "homepage": "https://kilimanjaro.dev",
+  "keywords": ["kilimanjaro", "core", "react-native", "data", "query", "search", "storage", "streams", "ai", "embeddings"],
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.0",
+    "typescript": "^5.3.0"
+  },
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  }
+}
